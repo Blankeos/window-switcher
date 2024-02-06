@@ -22,5 +22,5 @@ using [AHK](https://www.autohotkey.com/).
 ## 🎨 Features
 
 - [x] Basic same-app window switching across 2 windows.
-- [ ] Same-app window switching across > 2 windows.
+- [ ] Smart order-aware switching: Same-app window switching across more than 2 windows.
 - [ ] Same-app window switching across different windows Desktops.
