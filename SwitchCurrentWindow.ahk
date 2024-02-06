@@ -13,8 +13,6 @@
     ; All Windows Open
     ids := WinGetList()
 
-    MsgBox ids.Length " number of windows open"
-
     for this_id in ids
     {
         this_process_name := WinGetProcessName(this_id)
