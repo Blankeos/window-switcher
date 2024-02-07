@@ -149,8 +149,9 @@ previous_process_name := false ; false means nothing
 
     local is_same_ids := allItemsAreInMapKeys(switchable_ids, cached_ids_map)
 
-    if (!is_same_ids) {
+    if (!is_same_ids || switchable_ids.Length !== cached_ids_map.Count) {
         ordered_ids := initializeOrderedIds(switchable_ids, active_id)
+        cached_ids_map := Map()
         offset := 1
     }
 
