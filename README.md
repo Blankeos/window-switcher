@@ -1,8 +1,10 @@
 <h1>Window Switcher</h1>
 
+![preview](/docs/preview.gif)
+
 `Cmd` + `~` is my most-used Mac shortcut. It's a nifty keyboard shortcut for
 switching between windows of the same app. I was able to recreate it on Windows
-using [AHK](https://www.autohotkey.com/).
+using [AHK](https://www.autohotkey.com/). (Keystroke visualized above with [Keyviz](https://github.com/mulaRahul/keyviz))
 
 <h2>Table of Contents</h2>
 
