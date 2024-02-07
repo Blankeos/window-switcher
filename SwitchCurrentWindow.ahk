@@ -125,6 +125,11 @@ previous_process_name := false ; false means nothing
 ; Alt + `
 !`::
 {
+    if (!WinExist("A")) {
+        ; Cancel execution if no active window.
+        return
+    }
+
     global ordered_ids
     global offset
     global cached_ids_map
