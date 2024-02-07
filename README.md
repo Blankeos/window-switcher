@@ -10,7 +10,7 @@ using [AHK](https://www.autohotkey.com/). (Keystroke visualized above with [Keyv
 
 - [📃 Requirements](#%F0%9F%93%83-requirements)
 - [🚀 Getting Started](#%F0%9F%9A%80-getting-started)
-- [Auto-Run on Startup](#auto-run-on-startup)
+- [🚈 Auto-Run on Startup](#%F0%9F%9A%88-auto-run-on-startup)
 - [🎨 Features](#%F0%9F%8E%A8-features)
 
 ## 📃 Requirements
@@ -22,7 +22,7 @@ using [AHK](https://www.autohotkey.com/). (Keystroke visualized above with [Keyv
 1. Double-click on `SwitchCurrentWindow.ahk` to run it.
 2. Press `Alt` + `~`
 
-## Auto-Run on Startup
+## 🚈 Auto-Run on Startup
 
 1. Press 🪟 + R and type: `shell:startup`
 2. Paste `SwitchCurrentWindow.ahk` there.
