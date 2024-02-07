@@ -156,7 +156,8 @@ previous_process_name := false ; false means nothing
     if (offset > ordered_ids.Length)
         offset := 1
 
-    WinActivate ordered_ids[offset]
+    if WinExist(ordered_ids[offset])
+        WinActivate ordered_ids[offset]
 
     for id in switchable_ids {
         cached_ids_map[id] := 1
